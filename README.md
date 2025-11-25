@@ -6,6 +6,9 @@ The UI is modern, clean, and easy to use — designed for fast and personalized 
 
 ---
 
+
+localhost link: http://localhost:3000/
+
 ## 🚀 Features
 
 ### 🔹 AI-Generated Movie Recommendations
