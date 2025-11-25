@@ -1,0 +1,5 @@
+{
+  "name": "Copy of CineMind AI",
+  "description": "An intelligent movie recommendation engine powered by machine learning. It analyzes your unique taste profile, mood, and viewing history to curate personalized cinematic experiences.",
+  "requestFramePermissions": []
+}
