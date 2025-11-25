@@ -1,20 +1,101 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# 🎬 Movie Recommendation System 
 
-This contains everything you need to run your app locally.
+This is an AI-based Movie Recommendation System built using **React + TypeScript + Vite**.  
+The UI is modern, clean, and easy to use — designed for fast and personalized movie discovery.
 
-View your app in AI Studio: https://ai.studio/apps/drive/185h4h9IyxsTjMQvyMCbed0SP6mwvFcTi
+---
 
-## Run Locally
+## 🚀 Features
 
-**Prerequisites:**  Node.js
+### 🔹 AI-Generated Movie Recommendations
+ the system suggests movies based on:
+- Genres
+- Popularity
+- User preferences
+- Similarity analysis
+
+### 🔹 Beautiful UI
+- Responsive design  
+- Clean card-based movie layout  
+- Smooth onboarding experience  
+
+### 🔹 Real-Time Suggestions
+As users update their preferences, the recommendations adapt instantly.
+
+### 🔹 Fast & Lightweight
+The project uses:
+- **Vite** for ultra-fast development  
+- **React** for component-based UI  
+- **TypeScript** for type safety  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React 18** | Frontend UI framework |
+| **TypeScript** | Type-safe coding |
+| **Vite** | Fast build tool |
+| **Gemini API** | AI movie recommendations |
+| **Lucide Icons** | Modern UI icons |
+
+---
+
+## 📂 Project Structure
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+src/
+│── components/ # Reusable UI components
+│── services/ # Gemini API service
+│── App.tsx # Main app component
+│── index.tsx # Entry point
+│── types.ts # TypeScript types
+│── assets/ # Images and videos
+
+
+---
+
+## ▶️ Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SINCHANA20044252/movie-recommendation-system.git
+
+
+Install dependencies:
+
+npm install --legacy-peer-deps
+
+
+Create a .env file:
+
+VITE_GEMINI_API_KEY=your_api_key_here
+
+
+Start the development server:
+
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173/
+
+🌐 Deploy on Render
+
+Push project to GitHub
+
+Go to https://render.com
+
+Create Static Site
+
+Use these settings:
+
+Build Command: npm install && npm run build
+Publish Directory: dist
+
+
