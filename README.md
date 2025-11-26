@@ -6,6 +6,8 @@ The UI is modern, clean, and easy to use — designed for fast and personalized 
 
 ---
 
+DEPLOYEMENT APP LINK: https://movie-recommendation-system1.vercel.app/
+
 
 localhost link: http://localhost:3000/
 
